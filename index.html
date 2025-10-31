@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage Explorer | Discover Cultural Treasures</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fas fa-landmark"></i>
+                    Heritage Explorer
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#sites">Heritage Sites</a></li>
+                    <li><a href="#importance">Importance</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hero">
+                <h1>Discover Cultural Heritage</h1>
+                <p>Explore historical sites, understand their significance, and preserve our shared cultural legacy for future generations.</p>
+                <a href="#sites" class="btn">Explore Sites</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Filters Section -->
+    <section class="filters">
+        <div class="container">
+            <div class="filter-container">
+                <div class="filter-group">
+                    <h3>Filter by District</h3>
+                    <div class="filter-options" id="district-filters">
+                        <button class="filter-btn active" data-filter="all">All Districts</button>
+                        <button class="filter-btn" data-filter="central">Central District</button>
+                        <button class="filter-btn" data-filter="northern">Northern District</button>
+                        <button class="filter-btn" data-filter="southern">Southern District</button>
+                        <button class="filter-btn" data-filter="eastern">Eastern District</button>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <h3>Filter by Religious Interest</h3>
+                    <div class="filter-options" id="religion-filters">
+                        <button class="filter-btn active" data-filter="all">All Religions</button>
+                        <button class="filter-btn" data-filter="buddhist">Buddhist</button>
+                        <button class="filter-btn" data-filter="hindu">Hindu</button>
+                        <button class="filter-btn" data-filter="islamic">Islamic</button>
+                        <button class="filter-btn" data-filter="christian">Christian</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Heritage Sites Section -->
+    <section class="sites-section" id="sites">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Heritage Sites</h2>
+                <p>Explore our curated collection of culturally significant locations with historical and architectural importance.</p>
+            </div>
+            <div class="sites-grid" id="sites-container">
+                <!-- Site cards will be dynamically generated here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Importance Section -->
+    <section class="importance" id="importance">
+        <div class="container">
+            <div class="importance-content">
+                <div class="importance-text">
+                    <h2>Why Heritage Sites Matter</h2>
+                    <p>Cultural heritage sites are tangible links to our past, representing the history, traditions, and values of previous generations. They provide invaluable insights into human civilization and our shared journey through time.</p>
+                    <p>Preserving these sites is crucial for maintaining cultural diversity, fostering understanding between communities, and promoting sustainable tourism that benefits local economies.</p>
+                    <p>By exploring heritage sites, we not only appreciate architectural marvels and artistic achievements but also develop a deeper connection to our collective human story.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <div class="importance-img">
+                    <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Ancient Temple">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Heritage Explorer</h3>
+                    <p>Dedicated to preserving and promoting cultural heritage through education and sustainable tourism.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#sites">Heritage Sites</a></li>
+                        <li><a href="#importance">Importance</a></li>
+                        <li><a href="#">Tour Packages</a></li>
+                        <li><a href="#">Conservation Efforts</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Heritage Street, Cultural City</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@heritageexplorer.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Heritage Explorer. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
